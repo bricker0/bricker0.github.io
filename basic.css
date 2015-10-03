@@ -1,5 +1,5 @@
 body {
-    background-color: #d0e4fe;
+    background-color: #140500;
 }
 
 h1 {
@@ -9,5 +9,6 @@ h1 {
 
 p {
     font-family: "Arial";
+    text-align: center;
     font-size: 20px;
 }
