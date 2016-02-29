@@ -46,6 +46,16 @@ ul#menu li a:hover {
     text-align: center;
 }
 
+pre {
+    overflow: auto;
+    width: 500px;
+    }
+pre:hover {
+    position: relative;
+    width: 700px;
+    z-index: 99;
+    }
+
 pre.line-numbers {
     position: relative;
     padding-left: 3.8em;
