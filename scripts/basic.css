@@ -50,6 +50,7 @@ code, samp, kbd {
     font-family: "Courier New", Courier, monospace, sans-serif;
     text-align: left;
     color: #555;
+    background-color: gray; color: blue;
     }
 pre code {
     line-height: 1.6em;
