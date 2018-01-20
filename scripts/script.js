@@ -8,4 +8,5 @@ document.getElementById("nav01").innerHTML =
 document.getElementById("icon").innerHTML =
 "<ul id='menu'>" +
 "<i class="icon-instagram"></i>"+
-"<i class="icon-instagram"></i>";
+"<i class="icon-instagram"></i>"
+"</ul>";
