@@ -15,9 +15,11 @@ h3 {
         font-size: 48px;
 }
 
-body {
+
+
+p {
     
    font-family: 'Vollkorn', serif;
    font-weight: 300;
-   text-align: center;
+   text-align: left;
 }
