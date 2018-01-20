@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+}
+
+h2 {
+    text-align: left;
+    font-family: 'Vollkorn', serif;
+}
+
+h3 {
+    text-align: right;
+
+     font-family: 'Vollkorn', serif;
+        font-size: 48px;
+}
+
+body {
+    
+   font-family: 'Vollkorn', serif;
+   font-weight: 300;
+   text-align: center;
+}
