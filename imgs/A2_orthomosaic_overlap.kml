@@ -6,7 +6,7 @@
  <GroundOverlay>
    <name>Overlap overlay</name>
    <description>Overlap overlay</description>
-   <Icon><href>//soliscom.uu.nl/users/Ricke003/My Documents/pix4d/Aruba_2/1_initial/report/html/orthomosaic_overlap.png</href></Icon>
+   <Icon><href>https://github.com/bricker0/bricker0.github.io/blob/master/imgs/A3_RGB_orthomosaic_preview.png</href></Icon>
    <LatLonBox>
      <north>12.5621</north>
      <south>12.5617</south>
