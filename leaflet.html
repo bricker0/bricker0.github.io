@@ -32,7 +32,7 @@
 </head>
 <body>
 <h2>
-<b>SDG 15<b> Protect, restore and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss. <br><br> <b>SDG Target 15.1 <b>By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements
+<b>SDG 15<b> Protect, restore, and promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification, and halt and reverse land degradation and halt biodiversity loss. <br><br> <b>SDG Target 15.1 <b>By 2020, ensure the conservation, restoration and sustainable use of terrestrial and inland freshwater ecosystems and their services, in particular forests, wetlands, mountains and drylands, in line with obligations under international agreements
 </h2>
 <div id='map'></div>
 
@@ -58,7 +58,7 @@
 
 		//UPDATE to call your own data - the name after "props" is the attribute name - look in your js file to find the attribute to call
 	info.update = function (props) {
-		const contents = props ? `<b>${props.NAME_LONG}</b><br />${props.SDG1511} % of total land that is forest` : 'Hover over a state';
+		const contents = props ? `<b>${props.NAME_LONG}</b><br />${props.SDG1511}% of total land that is forest. Data from 2020.`: 'Hover over a state';
 		this._div.innerHTML = `<h4>15.1.1 Forest area as a proportion of total land area</h4>${contents}`;
 	};
 
