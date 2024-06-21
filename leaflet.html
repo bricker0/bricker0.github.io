@@ -147,6 +147,8 @@
 			labels.push(`<i style="background:${getColor(from + 1)}"></i> ${from}${to ? `&ndash;${to}` : '+'}`);
 		}
 
+		labels.push(`<i style="background:#FFFFFF"></i>  No Data`);
+
 		div.innerHTML = labels.join('<br>');
 		return div;
 	};
