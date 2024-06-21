@@ -58,7 +58,7 @@
 
 		//UPDATE to call your own data - the name after "props" is the attribute name - look in your js file to find the attribute to call
 	info.update = function (props) {
-		const contents = props ? `<b>${props.NAME_LONG}</b><br />${props.SDG1511}% of total land that is forest. Data from 2020.`: 'Hover over a state';
+		const contents = props ? `<b>${props.NAME_LONG}</b><br />${props.SDG1511}% of total land that is forest.`: 'Hover over a state';
 		this._div.innerHTML = `<h4>15.1.1 Forest area as a proportion of total land area</h4>${contents}`;
 	};
 
@@ -125,7 +125,7 @@
 		});
 	}
 
-	map.attributionControl.addAttribution('SDG data &copy; <a href="https://unstats-undesa.opendata.arcgis.com/">UN SDG DataHub</a>');
+	map.attributionControl.addAttribution('SDG data &copy; <a href="https://unstats-undesa.opendata.arcgis.com/">UN SDG DataHub</a>Data from 2020.');
 
 
 	//UPDATE legend to match the classes you coded
